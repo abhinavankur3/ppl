@@ -1,0 +1,75 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position-y: -125px;
+    background-size: 100%;
+}
+
+.top {
+    width: 100%;
+    height: 275px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 0px;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 275px;
+}
+
+#itemconright {
+    right: 5px;
+}
+
+.item-con {
+    position: absolute;
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    height: 200px;
+    width: 25%;
+    top: 335px;
+}
+
+.itemb {
+    position: relative;
+    height: 150px;
+    width: 60px;
+}
+
+.itemr {
+    position: relative;
+    height: 150px;
+    width: 50px;
+}
+
+.boat-con {
+    position: absolute;
+    height: 100px;
+    width: 50%;
+    top: 400px;
+    left: 25%;
+}
+
+.boat-item {
+    position: absolute;
+    height: 100px;
+    width: 150px;
+}
+
+.boat-item-person {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2px;
+    width: 150px;
+    height: 50px;
+}
